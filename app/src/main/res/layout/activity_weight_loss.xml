@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeightLossActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="132dp"
+                android:layout_height="43dp"
+                android:layout_marginLeft="150dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="200dp"
+                android:fontFamily="@font/adamina"
+                android:text="CARROT JUICE"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="370dp"
+                android:layout_height="328dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="0.5dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/cj" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="358dp"
+                android:layout_height="256dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Carrot juice is a nutrient-dense beverage, packing plenty of vitamin A and other healthy carotenoids into each serving Blending your carrots instead of juicing them can also help boost your intake of fiber to enhance feelings of fullness and help regulate your appetitePlus, carrots are rich in carotenoids, a type of plant pigment found in many fruits and vegetables.Interestingly, one 8-week study including 28 men with obesity found that those who drank a beverage rich in carotenoids daily experienced significant reductions in belly fat."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.846" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="238dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="200dp"
+                android:fontFamily="@font/adamina"
+                android:text="LEMON GINGER JUICE"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="387dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/lgg" />
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="358dp"
+                android:layout_height="256dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Lemon-ginger green juice can be a vibrant and delicious addition to a healthy weight loss diet.In particular, lemons can help add a zip of flavor to your drink while squeezing in some extra antioxidants.Some studies in humans and animals also show that ginger could help boost metabolism, reduce appetite, and promote weight loss.Meanwhile, greens like spinach or kale — when blended rather than juiced — can bump up your intake of fiber to keep you feeling full between meals."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.846" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="238dp"
+                android:layout_height="57dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/adamina"
+                android:text="WATERMELON JUICE"
+                android:textSize="16sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@drawable/wj" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="358dp"
+                android:layout_height="256dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="Watermelon juice is sweet, refreshing, and highly nutritious.Besides being low in calories, watermelon is a great source of heart-healthy micronutrients like potassium and the immune-supporting antioxidants vitamins A and CIt also boasts a high water content, which could help you lose weight and feel fuller.One 4-week study including 33 people gave 2 cups (300 grams) of fresh watermelon to participants daily. They experienced significant reductions in body weight, belly fat, hunger, and food cravings compared with those in a control group "
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.846" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

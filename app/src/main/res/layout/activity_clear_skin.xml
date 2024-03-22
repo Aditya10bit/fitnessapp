@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClearSkinActivity">
+
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="42dp"
+                android:fontFamily="@font/adamina"
+                android:text="BEETROOT AN POMEGRANATE JUICE"
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="335dp"
+                android:layout_height="425dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/cbjuice" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="350dp"
+                android:layout_height="164dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="20dp"
+                android:text="Beetroot juice acts a great blood purifier, which is key in keeping your skin glowing and healthy. Beetroots and Pomegranate are also rich in Vitamin C which helps in clearing blemishes and evens out your skin tone while giving it a natural glow. Beetroots are a unique source of betalains – a type of phytonutrient."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.846" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="124dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/adamina"
+                android:text="  CUCUMBER   JUICE  "
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="327dp"
+                android:layout_height="350dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                app:srcCompat="@drawable/cjuice" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="358dp"
+                android:layout_height="256dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="Cucumber is antioxidant-rich and antioxidants are the one strong component that can interfere in the oxidation process by different means. It fights against oxidative damage to your skin caused by free radicals.Vitamin C is a prominent element in cucumber. It brightens the skin tone and lightens all the pigmentation of your skin. Cucumber helps with dark spots and blemish marks too.Cucumber contains folic acid and caffeic acid. These two components can boost collagen production in your skin. Collagen keeps your skin youthful by preventing all the ageing signs like fine lines, age spots and wrinkles"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.846" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:fontFamily="@font/adamina"
+                android:text="  LEMON AND HONEY WATER  "
+                android:textSize="16sp"
+                android:textStyle="bold|italic"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="296dp"
+                android:layout_height="273dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="70dp"
+                app:srcCompat="@drawable/lh" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="358dp"
+                android:layout_height="256dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:text="Lemon and honey water is like a healthy elixir, a powerhouse of nutrients. Several studies claim that this drink helps in burning fat, clears acne and flushes out toxins from the body. Honey is a storehouse of antioxidants – flavonoids and phenolic compounds, essential vitamins and minerals."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.846" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
